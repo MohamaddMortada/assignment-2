@@ -14,11 +14,21 @@
     font-family:'Times New Roman', Times, serif;
 }
 .box-on-line {
-    width:100%;
-    padding: 1px;
+    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+.on-line-measures{
+    width:100%;
+    padding: 1px;
+}
+.box-measures{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 260px;
+    align-items: center;
+    align-content: center;
 }
 .box {
     padding: 10px;
@@ -26,11 +36,8 @@
     flex-direction: column;
     justify-content: space-between;
     flex-wrap:wrap;
-    align-items: center;
-    align-content: center;
-    height: 500px;
-    width: 260px;
-    background-color: rgb(255, 255, 255);
+
+    
     
   }
 .logo{
